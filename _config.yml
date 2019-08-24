@@ -1,5 +1,5 @@
 name: SarahMo
-  markdown: VS Code
+  markdown: kramdown
   permalink: /blog/:year/:month/:day/:title
   permalink: /about/:year/:month/:day/:title
   permalink: /cv/:year/:month/:day/:title
