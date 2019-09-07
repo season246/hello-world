@@ -16,6 +16,7 @@ body{
 #main-header{
     background-color:gold;
     color:white;
+    border-top-style: dotted;
 }
 
 #navbar{
@@ -75,6 +76,14 @@ body{
     padding:10px;
     box-sizing: border-box;
 }
+
+#sidebar{
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid blue;
+  }
 
 #main-footer{
     background:yellow;
