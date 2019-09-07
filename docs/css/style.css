@@ -1,6 +1,6 @@
 body{
-    background-color: aquamarine
-    color: green;
+    background-color: black;
+    color: white;
     font-family: arial, helvetica, sans-serif;
     font-size:16px;
     line-height:1.6em;
@@ -14,12 +14,12 @@ body{
 }
 
 #main-header{
-    background-color:greenyellow;
+    background-color:gold;
     color:white;
 }
 
 #navbar{
-    background-color: plum;
+    background-color: grey;
     color:white;
 }
 
@@ -33,7 +33,7 @@ body{
 }
 
 #navbar a{
-    color:green;
+    color:goldenrod;
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
