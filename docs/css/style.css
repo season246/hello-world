@@ -1,6 +1,6 @@
 body{
-    background-color: black;
-    color: white;
+    background-color:transparent;
+    color: black;
     font-family: arial, helvetica, sans-serif;
     font-size:16px;
     line-height:1.6em;
@@ -14,13 +14,13 @@ body{
 }
 
 #main-header{
-    background-color:gold;
+    background-color:grey;
     color:white;
     border-top-style: dotted;
 }
 
 #navbar{
-    background-color: grey;
+    background-color: black;
     color:white;
 }
 
@@ -71,18 +71,21 @@ body{
 
 #sidebar{
     float:right;
-    width: 30%;
-    color：black;
     padding:10px;
-    box-sizing: border-box;
+    position:static;
+    left:10px;
+    top:100px;
 }
 
 #sidebar{
     box-sizing: border-box;
     width: 300px;
     height: 100px;
-    padding: 30px;  
     border: 10px solid blue;
+  }
+
+#sidebar p{
+    overflow: auto;
   }
 
 #main-footer{
@@ -91,16 +94,22 @@ body{
     text-align: center;
     padding:20px;
     margin-top: 40px;
-    margin-bottom: 0%;
+    margin-bottom: 2em;
     font-size: 10px;
-}
-
-#main-footer{
     position: fixed;
     width: 50%;
     bottom: 10px;
-    border: 3px solid #8AC007;
-  } 
+}
+
+#main-footer p{
+    margin-bottom: 2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 
 @media(max-width:600px){
     #main{
